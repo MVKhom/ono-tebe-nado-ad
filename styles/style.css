@@ -4,23 +4,22 @@
   grid-template-columns: 1fr min-content 1fr;
   align-content: center;
   height: 293px;
-  padding: 0 15px 0 15px;
+  padding: 0 10px 0 10px;
   background-color: white;
 }
 /*навигация*/
+
 .menu {
-  justify-self: start;
   margin: auto;
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 10px;
+  gap: 30px;
   font-size: 18px;
   font-weight: 400;
   line-height: 100%;
   text-transform: lowercase;
   list-style-type: circle;  
-  list-style-position: outside; 
 }
 
 .menu-link:first-child,
@@ -44,6 +43,7 @@
 }
 
 /* Обложка */
+
 .cover {
   position: relative;
   margin: 0 0 150px 0;
@@ -110,13 +110,13 @@
   padding: 12px 32px;
   background-color: rgba(0, 125, 215, 0);
   border: 1px solid white;
-  font-size: 18px;
   color: #fff;
   font-size: 22px;
   text-transform: uppercase;
-
 }
+
 /* Лоты */
+
 .lots {
   margin: 180px 10px 100px 10px;
   padding: 0px;
@@ -178,7 +178,7 @@
   color: white;
 }
 
-.lots-card  li:nth-child(4) {
+.lots-card  li:nth-child(3) {
   background:  center center url(../images/card-lot-03.jpg) no-repeat;
   color: white; 
 }
@@ -189,13 +189,14 @@
   font-weight: 400;
   line-height: 100%;
 }
+
 /*Про нас*/
+
 .about {
   display: grid;
   grid-template-columns: 280px 1fr;
   gap: 52px;
   margin: 132px 50px 132px 50px;
-
 }
 
 .about-left {
@@ -216,6 +217,7 @@
 .about-right {
   padding: 0;
 }
+
 .about-right h1 {
   margin: 122px 0  100px 0;
   font-size: 40px;
