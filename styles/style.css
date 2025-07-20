@@ -1,7 +1,7 @@
 /* Шапка */
 .header {
   display: grid;
-  width: 1100px;
+  max-width: 1100px;
   grid-template-columns: 1fr min-content 1fr;
   align-content: center;
   height: 293px;
@@ -44,14 +44,14 @@
 }
 
 .main {
-  width: 1100px;
+  min-width: 1100px;
 }
 
 /* Обложка */
 
 .cover {
   position: relative;
-  width: 1100px;
+  max-width: 1100px;
   margin: 0 0 150px 0;
   padding: 155px 50px 50px 50px;
   background: center center url(../images/cover.jpg) no-repeat;
@@ -124,7 +124,7 @@
 .lots {
   margin: 180px 10px 100px 10px;
   padding: 0px;
-  width: 1100px;
+  max-width: 1100px;
 }
 
 .lots-title {
@@ -201,7 +201,7 @@
   grid-template-columns: 280px 1fr;
   gap: 52px;
   margin: 132px 50px 132px 50px;
-  width: 1100px;
+  max-width: 1100px;
 }
 
 .about-left {
@@ -220,7 +220,7 @@
 }
 
 .about-right {
-  padding: 0px 104px 0px 0px;
+  padding: 0px;
 }
 
 .about-right h1 {
@@ -241,6 +241,7 @@
   grid-template-columns: 1fr 1fr 1fr;
   height: 180px;
   padding: 0px 25px 0px 25px;
+  max-width: 1100px;
   background-color: white;
   font-size: 25px;
   font-weight: 400;
