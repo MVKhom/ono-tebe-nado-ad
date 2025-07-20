@@ -3,6 +3,7 @@
   display: grid;
   grid-template-columns: 1fr min-content 1fr;
   align-content: center;
+  gap: 5px;
   height: 293px;
   padding: 0 10px 0 10px;
   margin: 0px;
@@ -32,6 +33,7 @@
 .logo {
   width: 148px;
   height: 105px;
+  background: url("../images/logo-black.svg") no-repeat;
 }
 
 .address {
