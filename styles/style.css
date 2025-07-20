@@ -43,7 +43,6 @@
   line-height: 1.4;
 }
 
-
 /* Обложка */
 
 .cover {
@@ -68,6 +67,7 @@
 .cover-title {
   display: grid;
   grid-template-rows: 1fr 1fr 1fr;
+  gap: 0px 30px;
   position: relative;
   z-index: 1;
   margin-bottom: 96px;
@@ -78,18 +78,15 @@
 }
 
 .cover-title-left {
-  position: relative;
-  left: 0%;
+  justify-self: start;
 }
 
 .cover-title-center {
-  position: relative;
-  left: 33%;
+  justify-self: center;
 }
 
 .cover-title-right {
-  position: relative;
-  left: 61.2%;
+  justify-self: end;
 }
 
 .description {
