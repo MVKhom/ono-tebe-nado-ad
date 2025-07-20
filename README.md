@@ -1,0 +1,1 @@
+git@github.com:MVKhom/ono-tebe-nado-ad.git
